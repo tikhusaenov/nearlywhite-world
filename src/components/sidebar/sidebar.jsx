@@ -1,6 +1,7 @@
 import './sidebar.css'
 
 const Sidebar = () => {
+
     return (
         <div className="Sidebar">
             <div className='main-content'>

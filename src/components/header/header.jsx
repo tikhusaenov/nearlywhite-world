@@ -1,10 +1,13 @@
 import './header.css'
 
-const Header = ({ openSidebar }) => {
+const Header = ({ openSidebar, burgerClass }) => {
+
     return (
         <div className="Header">
-            <div className='sidebar-toggle' onClick={openSidebar}>
-                Open
+            <div className='burger-menu' onClick={openSidebar}>
+                <div className={burgerClass}></div>
+                <div className={burgerClass}></div>
+                <div className={burgerClass} ></div>
             </div>
             <div className='logo'>
                 Nearlywhite
